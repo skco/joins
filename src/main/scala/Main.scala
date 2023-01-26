@@ -84,7 +84,5 @@ object App {
 
     peopleWithNameShorterThatAgeLimit = peopleWithNameShorterThatAgeLimit.withColumn("firstLastNameLength",length(peopleDF("lastName"))+length((peopleDF("firstName"))))
     peopleWithNameShorterThatAgeLimit.show()
-
-    println("Hello world!")
   }
 }
