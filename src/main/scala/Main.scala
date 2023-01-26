@@ -7,7 +7,7 @@ import org.apache.spark.sql.functions.countDistinct
 
 
 
-object App {
+object joins {
 
   def main(args: Array[String]): Unit = {
     val spark: SparkSession = SparkSession.builder()
